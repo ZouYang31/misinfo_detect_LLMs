@@ -13,15 +13,15 @@ Data preprocssing example for Llama2:
 “### Human: The statement is to be categorized into one of these labels: true, false, half-true, mostly-true, barely-true. \n Headline: 'The Annies List political group supports third-trimester abortions on demand.' Subject: Abortion. Speaker: Dwayne Bohac. Speaker's Title: State Representative.\n\n### Assistant: [Label].”
 
 ## Results
+
 ## Results
 
-| Models / Results | Baseline (Wang, 2017) | Baseline (pre-fine tuning) | After-fine tuning |
-|------------------|-----------------------|----------------------------|-------------------|
-| **CNNs**         | Valid: 0.247          | Test: 0.274                |                   |
-| **Llama2**       | Valid: 0.0            |                            | Valid: 0.35       |
-| **Bert-large**   |                       |                            | Valid: 0.203      |
-| **Llama2 7B**    |                       |                            | Valid: 0.37       |
-| **GPT-2**        |                       |                            | Test: 0.34        |
-|                  |                       |                            | Test: 0.23        |
-
-Table 1: The evaluation accuracy on the LIAR dataset using different LLMs
+| Models           | Baseline (Wang, 2017) | After-fine tuning |
+|------------------|:---------------------:|:-----------------:|
+|                  | Valid       | Test     | Valid   | Test    |
+|------------------|:------------:|:---------:|:--------:|:-------:|
+| **CNNs**         | 0.247        | 0.274     | -        | -       |
+| **Bert-large**   |              | -         | 0.35     | 0.34    |
+| **Llama2 7B**    |  0.0 (pre-fine tuning)|        | 0.203    | -       |
+| **GPT-2**        | -            | -         | 0.37        | 0.23    |
+*Table 1: The evaluation accuracy on the LIAR dataset using different LLMs
