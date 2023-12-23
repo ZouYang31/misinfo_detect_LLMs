@@ -7,10 +7,12 @@ Datasets: LIAR - William Yang Wang. 2017. “Liar, Liar Pants on Fire”: A New 
 Labels: 'barely-true', 'false', 'half-true', 'true', and 'mostly-true'. 
 
 Data preprocssing example for BERT & GPT-2: 
-'Says the Annies List political group supports third-trimester abortions on demand. Subject: abortion. Speaker: dwayne-bohac. Speaker title: State representative.'
+
+*"Says the Annies List political group supports third-trimester abortions on demand. Subject: abortion. Speaker: dwayne-bohac. Speaker title: State representative."*
 
 Data preprocssing example for Llama2:
-“### Human: The statement is to be categorized into one of these labels: true, false, half-true, mostly-true, barely-true. \n Headline: 'The Annies List political group supports third-trimester abortions on demand.' Subject: Abortion. Speaker: Dwayne Bohac. Speaker's Title: State Representative.\n\n### Assistant: [Label].”
+
+*“### Human: The statement is to be categorized into one of these labels: true, false, half-true, mostly-true, barely-true. \n Headline: 'The Annies List political group supports third-trimester abortions on demand.' Subject: Abortion. Speaker: Dwayne Bohac. Speaker's Title: State Representative.\n\n### Assistant: [Label].”*
 
 ## Results
 
