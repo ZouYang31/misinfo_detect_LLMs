@@ -14,14 +14,13 @@ Data preprocssing example for Llama2:
 
 ## Results
 
-## Results
+| Models         | Baseline (Wang, 2017)         | Before-fine tuning    | After-fine tuning            |
+|----------------|:-----------------------------:|:---------------------:|:----------------------------:|
+| **CNNs**       | 0.247 (Valid) / 0.274 (Test)  | -                     | -                            |
+| **Bert-large** | -                             | -                     | 0.35 (Valid) / 0.34 (Test)   |
+| **Llama2 7B**  | 0.0 (pre-fine tuning)         | -                     | 0.203 (Valid)                |
+| **GPT-2**      | -                             | -                     | 0.37 (Valid) / 0.23 (Test)   |
 
-| Models           | Baseline (Wang, 2017) | After-fine tuning |
-|------------------|:---------------------:|:-----------------:|
-|                  | Valid       | Test     | Valid   | Test    |
-|------------------|:------------:|:---------:|:--------:|:-------:|
-| **CNNs**         | 0.247        | 0.274     | -        | -       |
-| **Bert-large**   |              | -         | 0.35     | 0.34    |
-| **Llama2 7B**    |  0.0 (pre-fine tuning)|        | 0.203    | -       |
-| **GPT-2**        | -            | -         | 0.37        | 0.23    |
-*Table 1: The evaluation accuracy on the LIAR dataset using different LLMs
+*Table 1: The evaluation accuracy on the LIAR dataset using different LLMs*
+
+
