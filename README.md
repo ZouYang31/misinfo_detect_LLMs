@@ -20,7 +20,7 @@ Data preprocssing example for Llama2:
 |----------------|:-----------------------------:|:---------------------:|:----------------------------:|
 | **CNNs**       | 0.247 (Valid) / 0.274 (Test)  | -                     | -                            |
 | **Bert-large** | -                             | -                     | 0.35 (Valid) / 0.34 (Test)   |
-| **Llama2 7B**  | 0.0 (pre-fine tuning)         | -                     | 0.203 (Valid)                |
+| **Llama2 7B**  |  -                              |  0.0 (pre-fine tuning)  | 0.203 (Valid)                |
 | **GPT-2**      | -                             | -                     | 0.37 (Valid) / 0.23 (Test)   |
 
 *Table 1: The evaluation accuracy on the LIAR dataset using different LLMs*
