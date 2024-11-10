@@ -1,4 +1,6 @@
 # misinfo_detect_LLMs
+This project leverages large language models (LLMs) for fake news detection. LLMs are well-suited for tasks such as understanding language patterns, context, and nuances, allowing them to analyze text for signs of manipulation, exaggeration, or misleading information. The goal of this project is to evaluate the performance of LLMs in the task of fake news detection.
+
 In our research, we primarily focus on leveraging open-source models, specifically BERT, GPT-2, and LLaMA2.
 
 ## Data
